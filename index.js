@@ -24,6 +24,13 @@ mongoose.connect(dbConfig.url, {
 });
 
 
+const User = require('./api/models/user_model');
+
+
+const routes = require('./api/routes/router');
+app.use('/api',routes);
+
+
 app.listen(port);
 
-console.log(" REST API server Stared on "  +port);
+console.log(" REST API server Started on "  +port);
