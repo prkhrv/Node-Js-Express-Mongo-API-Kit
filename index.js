@@ -29,6 +29,9 @@ const User = require('./api/models/user_model');
 
 
 const routes = require('./api/routes/router');
+app.get('/test',function(req,res){
+    res.json({message:'Working Properly'});
+});
 app.use('/api',routes);
 
 
