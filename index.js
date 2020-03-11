@@ -38,3 +38,6 @@ app.use('/api',routes);
 app.listen(port);
 
 console.log(" REST API server Started on "  +port);
+
+
+module.exports = app;
