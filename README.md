@@ -4,4 +4,16 @@ Node-JS-API-Starter Kit with multer for profile picture with test with Mocha/Cha
 Just fork it and
 don't forget to give a :star:
 
- `node index`
+## 🛠 Installation & Set Up
+
+1. Install dependencies
+   ```sh
+   npm install
+   ```
+## 🚀 Building and Running
+
+1. To Run
+
+   ```sh
+   npm run-script run
+   ```   
